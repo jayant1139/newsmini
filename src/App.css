@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
   font-family: 'Poppins', sans-serif;
-  background: conic-gradient(from 180deg at 50% 50%, #F4B900 -67.5deg, #F4B900 43.12deg, #F4B900 292.5deg, #F4B900 403.12deg);
+  background: conic-gradient(from 180deg at 50% 50%, #f4b700cc -67.5deg, #f4b700cc 43.12deg, #f4b700cc 292.5deg, #f4b700cc 403.12deg);
 }
 .main-header{
   display: flex;
@@ -17,7 +17,7 @@ margin: auto;
 }
 .heading-right .heading-items{
   
-  font-size: 1.2rem;
+  
   margin:0 2rem;
   /* padding:0.5rem ; */
   color: #FCFFFE;
@@ -26,6 +26,24 @@ border-radius: 5.0rem 1.0rem 5.0rem 5.0rem;
   
 }
 .heading-right .heading-items p{
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin:0.8rem;
+}
+.desc-container{
   /* background-color: chartreuse; */
-  margin:1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem;
+  padding: 1rem;
+}
+.desc-container p{
+  width: 50rem;
+  color: #21242B;
+  font-weight: bold;
+
+}
+.desc-items img{
+width: 18rem;
 }
