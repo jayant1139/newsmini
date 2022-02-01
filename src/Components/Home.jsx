@@ -43,7 +43,7 @@ function Home() {
 
       <div className="desc-container">
         <div className="desc-items desc-bg-shadow">
-          <img src={process.env.PUBLIC_URL + "/Images/finance.png"} alt="" />
+          <img src={process.env.PUBLIC_URL + "/Images/sports.png"} alt="" />
         </div>
         <div className="desc-items">
           <p>
@@ -63,13 +63,13 @@ function Home() {
           </p>
         </div>
         <div className="desc-items desc-bg-shadow">
-          <img src={process.env.PUBLIC_URL + "/Images/finance.png"} alt="" />
+          <img src={process.env.PUBLIC_URL + "/Images/entertainment.png"} alt="" />
         </div>
       </div>
 
       <div className="desc-container">
         <div className="desc-items desc-bg-shadow">
-          <img src={process.env.PUBLIC_URL + "/Images/finance.png"} alt="" />
+          <img src={process.env.PUBLIC_URL + "/Images/politics.png"} alt="" />
         </div>
         <div className="desc-items">
           <p>
