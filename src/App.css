@@ -2,8 +2,37 @@
 body{
   font-family: 'Poppins', sans-serif;
   /* background: conic-gradient(from 180deg at 50% 50%, #f4b700cc -67.5deg, #f4b700cc 43.12deg, #f4b700cc 292.5deg, #f4b700cc 403.12deg); */
-
+  
   background: conic-gradient(from 180deg at 50% 50%, #F4B900 -67.5deg, #EFCB5C 43.12deg, #F4B900 292.5deg, #EFCB5C 403.12deg);
+}
+.centered{
+  text-align: center;
+}
+.cards{
+  width: 18rem;
+  height: 15rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+  box-shadow: inset 4px 4px 10px 5px rgba(0, 0, 0, 0.25);
+border-radius: 5rem;
+background: url('../public/Images/character.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+}
+.cards p{
+  color:#FCFFFE;
+  margin: 1rem 2rem;
+
+  ;
+}
+.between-space{
+/*  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+  
 }
 .main-header{
   display: flex;
