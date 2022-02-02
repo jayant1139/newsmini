@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
   font-family: 'Poppins', sans-serif;
-  background: conic-gradient(from 180deg at 50% 50%, #f4b700cc -67.5deg, #f4b700cc 43.12deg, #f4b700cc 292.5deg, #f4b700cc 403.12deg);
+  /* background: conic-gradient(from 180deg at 50% 50%, #f4b700cc -67.5deg, #f4b700cc 43.12deg, #f4b700cc 292.5deg, #f4b700cc 403.12deg); */
+
+  background: conic-gradient(from 180deg at 50% 50%, #F4B900 -67.5deg, #EFCB5C 43.12deg, #F4B900 292.5deg, #EFCB5C 403.12deg);
 }
 .main-header{
   display: flex;
@@ -25,7 +27,7 @@ margin: auto;
   margin:0 2rem;
   /* padding:0.5rem ; */
   color: #FCFFFE;
-  background: linear-gradient(180deg, #2975FD 89.58%, rgba(92, 149, 250, 0) 100%);
+  background: linear-gradient(180deg, #21242B 89.58%, rgba(92, 149, 250, 0) 100%);
 border-radius: 5.0rem 1.0rem 5.0rem 5.0rem;
   
 }
